@@ -1,3 +1,5 @@
+% note: there's no need to run this file, as its outputs are already saved in processed_data
+
 clear all;
 addpath("raw_data");
 
