@@ -1,4 +1,4 @@
-# Blue Crab Population Dynamics — MATLAB
+# Blue Crab Population Dynamics - MATLAB
 
 A MATLAB-based simulation and analysis framework for modelling the population dynamics of the blue crab (*Callinectes sapidus*) in response to environmental and biological drivers.
 
@@ -30,13 +30,13 @@ blue-crab-population-dynamics-matlab/
 │
 ├── raw_data/
 │   ├── maryland_data.xlsx                                               # Observed crab density data (Maryland DNR)
-│   └── tos.nwa.full.hcast.monthly.regrid.r20250715.199301-202312.nc    # Sea surface temperature reanalysis (1993–2023)
+│   └── tos.nwa.full.hcast.monthly.regrid.r20250715.199301-202312.nc     # Sea surface temperature reanalysis (1993–2023)
 │
 ├── src/
 │   ├── functions/
 │   │   ├── make_X_yearly.m            # Aggregates simulation output to yearly densities
 │   │   ├── model_eval.m               # Evaluates the model and computes objective functions
-│   │   ├── pack_params.m              # Packs/unpacks parameter vectors
+│   │   ├── pack_params.m              # Packs parameter vectors
 │   │   ├── run_calibration.m          # NSGA-II multi-objective calibration
 │   │   ├── run_sensitivity_analysis.m # Elementary Effects sensitivity analysis
 │   │   └── simulate_and_compare.m     # Runs simulation and compares to observations
